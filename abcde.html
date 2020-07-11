@@ -1,0 +1,32 @@
+<html xmlns=”http://www.w3.org/1999/xhtml”> 
+  <head> 
+
+    <title> MY CODE</title>
+    <script data-require="jquery@3.0.0" data-semver="3.0.0" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
+    <script src="abd.js"></script>
+  </head> 
+  <link rel="stylesheet" href="CSS.css">
+  <body onload="$.get()"> 
+    <h1>TIC TAC TOE!</h1>
+    <div id="initial-call" ></div>
+    <div class="buttons">
+      <button id="X" class="action_btn X" type="button" value="X" onclick="player(this.id)">player-1 (X) </button>
+      <button id="O" class="action_btn O" type="button" value="O" onclick="player(this.id)">player-2 (O) </button>
+    </div>
+  
+    <div class="game-board">
+      <div id="1" type="button" value="1" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="2" type="button" value="2" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="3" type="button" value="3" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="4" type="button" value="4" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="5" type="button" value="5" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="6" type="button" value="6" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="7" type="button" value="7" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="8" type="button" value="8" onclick="window.click_call(this.id)" class="box"></div>
+      <div id="9" type="button" value="9" onclick="window.click_call(this.id)" class="box"></div>
+    </div>
+    
+
+  </body>
+
+</html>
